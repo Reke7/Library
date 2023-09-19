@@ -1,0 +1,17 @@
+.container{
+    max-width: 80%;
+}
+
+#bookForm{
+    width: 400px;
+    margin: auto;
+}
+
+#numberOfPages
+{
+    margin-bottom: 10px;
+}
+
+/* button{
+    width: 400px;
+} */
