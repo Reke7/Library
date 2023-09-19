@@ -41,6 +41,9 @@ document.addEventListener('DOMContentLoaded', function(){
     {
         const table = document.getElementById('books');
         const tbody = table.getElementsByTagName('tbody')[0];
+
+        // Clears existing table rows
+        tbody.innerHTML = '';
     
         // Loops through the Library Array in order to get the books informations and display them in the table
         myLibrary.forEach(book => {
