@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-    const newBook = getElementById('newBook');
-
     const myLibrary = [
     ];
     
